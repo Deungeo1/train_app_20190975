@@ -37,7 +37,7 @@ const trainILike = [
 function App() {
   return (
   <div>
-    {trainILike.map(dish => (<Train name={dish.name} picture={dish.image} />))}
+    {trainILike.map(rail => (<Train name={rail.name} picture={rail.image} />))}
   </div>
   );
 }
